@@ -68,7 +68,7 @@ const renderGroupListItem = ({item, groupId, rowId}) => {
 |style|object|the style on expandableList|
 |groupStyle|object|the style on each group item in expandableList|
 |groupSpacing|number|the spacing between groups|
-|implementedBy|string|expandableList supports 3 rendering method: View, ListView, FlatList(default)|
+|implementedBy|string|expandableList supports 3 implementing method: View, ListView, FlatList(default)|
 |renderGroupHeader({item, groupId, status, toggleStatus})|function|expandableList will use this function to render group header|
 |renderGroupListItem({item, groupId, rowId})|function|expandableList will use this function to render each listItem|
 |initialOpenGroups|array|when first rendering expandableList, it will open those groups whose index in the initialOpenGroups|
